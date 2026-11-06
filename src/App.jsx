@@ -1770,7 +1770,7 @@ function ProfileView({
 
       <button
         onClick={saveAll}
-        className="w-full bg-[#dc143c] text-white font-black py-4 rounded-[22px] active:scale-95 transition-transform tracking-wide flex justify-center items-center gap-2 shadow-xl shadow-[0_0_20px_rgba(220,20,60,0.3)] text-sm"
+        className="w-full bg-[#dc143c] text-white font-black py-4 rounded-2xl active:scale-95 transition-transform tracking-wide flex justify-center items-center gap-2 shadow-xl shadow-[0_0_20px_rgba(220,20,60,0.3)] text-sm"
       >
         <CheckCircle2 className="w-4 h-4 stroke-[2.5]" /> Save Configuration
       </button>
@@ -1815,7 +1815,7 @@ function SetupView({ onSave }) {
         <button
           onClick={() => onSave(geminiKey)}
           disabled={!geminiKey.trim()}
-          className="w-full bg-[#dc143c] text-white font-black py-4.5 rounded-2xl disabled:opacity-40 disabled:scale-100 hover:scale-[1.02] active:scale-95 transition-all shadow-xl shadow-[0_0_20px_rgba(220,20,60,0.3)] text-xs uppercase tracking-widest"
+          className="w-full bg-[#dc143c] text-white font-black py-4 rounded-2xl disabled:opacity-40 disabled:scale-100 hover:scale-[1.02] active:scale-95 transition-all shadow-xl shadow-[0_0_20px_rgba(220,20,60,0.3)] text-xs uppercase tracking-widest flex items-center justify-center"
         >
           Get Started
         </button>
